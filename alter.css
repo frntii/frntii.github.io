@@ -1,0 +1,77 @@
+	body{
+	padding: 0;
+	margin: 0;
+	background-image: url(images/doyeon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "arial";
+}
+#header{
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+.menu-bar{
+	color: black;
+	width :980px;
+	height :40px;
+	margin :auto;
+}
+.menu-bar h2{
+	float: 100px;
+}
+.menu-bar-logo{
+	color: black;
+	margin :0;
+	margin-top: 15px;
+	float:left;
+}
+.menu-bar ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.menu-bar ul li{
+	float: left;
+	padding: 20px;
+	display: block;
+}
+.menu-bar ul li:hover{
+	transition :all 1s;
+}
+.menu-bar ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menu-bar li ul{
+	display: none;
+	position: absolute;
+	background: #eee;
+	margin: 0;
+	margin-left: -20px;
+	margin: 20px;
+}
+.menu-bar li ul li{
+	float: none;
+}
+.menu-bar li ul li:hover{
+	background:gray;
+}
+.menu-bar li ul li a{
+	color: black;
+}
+.menu-bar ul li:hover ul{
+	display: block;
+}
+.promo{
+	color: #fff;
+  	padding: 20%;
+  	letter-spacing: 10px;
+	color:white;
+}
+#h-1{
+	color:yellow;
+}
+.promo p{
+	text-align: right;
+}
