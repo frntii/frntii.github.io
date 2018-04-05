@@ -99,7 +99,7 @@
 				<img src="crop/PHONE.jpg"><p>+021 8748 88 - Office</p>
 				<img src="crop/MS.jpg"><p>info@socialpleasure.com</p>
 			</div>
-		</div>
+		</div><!-- -->
 	</div><!-- end container -->
 	<script>
 			let sliderImages = document.querySelectorAll('.slide'),
